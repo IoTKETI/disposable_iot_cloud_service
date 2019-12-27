@@ -1,0 +1,22 @@
+spring:
+
+  # NULL Field 제외
+  jackson:
+    default-property-inclusion: NON_EMPTY
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql: trace
+    kr.re.keti.deviceorder: debug
+    org.springframework: debug
+
+
+mqtt:
+  broker:
+    url: tcp://localhost:1883
+  topic: cloud
+
+
+
