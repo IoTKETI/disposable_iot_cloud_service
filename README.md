@@ -36,10 +36,10 @@
 
   - 목록
 
-    | property                                             | Sample               | Description                                        |
-  | ---------------------------------------------------- | -------------------- | -------------------------------------------------- |
+    | property                                             | Sample               | Description                             |
+    | ---------------------------------------------------- | -------------------- | ----------------------------------------|
     | server.portspring.jackson.default-property-inclusion | NON_EMPTY            | 정보 반환시 null을 가진 필드는 반환하지 않음트정보 |
-    | mqtt.broker.url                                      | tcp://localhost:1883 | mqtt broker url 정보                               |
-    | mqtt.broker.topic                                    | cloud                | topic 정보                                         |
+    | mqtt.broker.url                                      | tcp://localhost:1883 | mqtt broker url 정보                     |
+    | mqtt.broker.topic                                    | cloud                | topic 정보                               |
     
     
