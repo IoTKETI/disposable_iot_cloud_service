@@ -10,4 +10,4 @@ echo "Deploy Server"
 cd target/
 nohup java -jar cloudserver-0.0.1-SNAPSHOT.jar &
 
-tail -f /home/keti/workspace/disposable_task_server/cloud_service/target/nohup.out
+tail -f ./target/nohup.out

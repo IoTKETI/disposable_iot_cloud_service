@@ -15,7 +15,8 @@ logging:
 
 mqtt:
   broker:
-    url: tcp://localhost:1883
+     url: tcp://dockerhost:1883
+#    url: tcp://localhost:1883
   topic: cloud
 
 
